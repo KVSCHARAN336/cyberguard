@@ -1,0 +1,28 @@
+{
+  "name": "cyber-hosting-checker-platform",
+  "version": "1.0.0",
+  "description": "Production-grade Cyber Security Hosting & Tech Stack Detection Platform",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "npm --prefix backend start",
+    "dev": "npm --prefix backend run dev",
+    "install:all": "npm install && npm --prefix backend install && npm --prefix frontend install",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "start:backend": "npm --prefix backend start",
+    "start:frontend": "npm --prefix frontend run preview",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "hosting-checker",
+    "wappalyzer",
+    "builtwith",
+    "cyber-security",
+    "dns-lookup",
+    "cdn-detector",
+    "tech-detector",
+    "ssl-checker"
+  ],
+  "author": "Antigravity Architect",
+  "license": "MIT"
+}
